@@ -1,0 +1,48 @@
+
+body {
+    background-color: #FF6F61;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 100vw;
+    height: 80vh;  
+}
+h1 {display: flex;
+   align-content: center;
+    justify-content: center;
+}
+.buttons {
+    display: flex;
+    height: 60vh;
+    flex-direction: column;
+    justify-content:space-between;
+    padding: 7rem 0 0 0;
+}
+.container .drawboard {
+    margin-top: 1.8rem;
+    background-color: white;
+    padding: 0.2rem;
+    display: grid;
+    height: 80vh;
+    width: 80vw;
+    border: solid green 0.2rem;
+    border-radius: 15px;
+}
+
+button {
+    background-color: green;
+    font-size: larger;
+    transform: scale(1.5);
+}
+
+
+
+
+
